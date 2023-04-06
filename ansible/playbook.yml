@@ -1,0 +1,9 @@
+---
+- name: Testing
+  hosts: localhost
+  
+  collections:
+    - gareth.mycollection
+
+  roles:
+    - gareth.mycollection.copy_something

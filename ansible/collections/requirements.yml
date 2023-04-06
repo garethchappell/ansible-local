@@ -1,0 +1,8 @@
+---
+collections:
+    - name: gareth.mycollection
+      type: git
+      source: https://github.com/garethchappell/ansible-remote.git#gareth/mycollection
+
+roles:
+  - name: gareth.mycollection.copy_something
